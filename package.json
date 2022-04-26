@@ -11,7 +11,11 @@
     "jsonld": "^3.2.0",
     "lodash": "^4.17.20",
     "next": "^12.1.5",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
   }
 }
