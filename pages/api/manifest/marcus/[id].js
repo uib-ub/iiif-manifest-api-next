@@ -1,8 +1,8 @@
 import * as jsonld from 'jsonld'
 import { omit, sortBy } from 'lodash'
-import { constructManifest } from '../../../lib/constructManifest'
-import { defaultFrame } from '../../../lib/defaultFrame'
-import { getQuery } from '../../../lib/getQuery'
+import { constructManifest } from '../../../../lib/constructManifest'
+import { defaultFrame } from '../../../../lib/defaultFrame'
+import { getQuery } from '../../../../lib/getQuery'
 
 const MANIFEST_BASE = "https://ub-iiif.vercel.app/api/manifest/marcus/"
 const API = "http://sparql.ub.uib.no/sparql/query?query="
