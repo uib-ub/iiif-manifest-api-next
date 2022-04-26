@@ -20,6 +20,8 @@ export default function Home() {
         <p className={styles.description}>
           IIIF Presentation API v3 compliant. The API serves objects from <a href="https://marcus.uib.no">Marcus</a> and <a href="https://skeivtarkiv.no">The Norwegian archive for queer history</a>.
           The API is a simple wrapper over a SPARQL endpoint that maps the result to a simple IIIF manifest.
+          <br />
+          Any valid id or <i>signature</i> from these datasets will be resolved. Test some example manifests!
         </p>
 
         <p className={styles.description}>
